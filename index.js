@@ -14,3 +14,18 @@ const bMImark = markmass / (markheight * markheight);
 
  const highermarkbmi = bMImark > bMIjohn;
  console.log( highermarkbmi);
+
+
+// code1 (b)
+const markmasss = 95;
+const markheightt = 1.88;
+const johnmasss = 85;
+const johnheightt = 1.76;
+
+// formula here
+const bMIImark = markmasss / (markheightt * markheightt);
+ const bMIIjohn = johnmasss /( johnheightt **2);
+ console.log(bMIImark,bMIIjohn);
+
+ const highermarkbmii = bMIImark > bMIIjohn;
+ console.log( highermarkbmii);
