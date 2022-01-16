@@ -75,3 +75,7 @@ if (dolphinsscore > koalassscore && dolphinsscore >=100 ){
 }else {
   console.log(`no one is the winner both have less than 100 score`);
 }
+
+// // code after 3
+// // do the switch type statement in if else statement 
+  let day = "wednesday";
