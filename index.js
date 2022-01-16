@@ -50,6 +50,11 @@ console.log( dolphinscore,koalasscore);
 
 if (dolphinscore > koalasscore){
   console.log(`dolphin team win the trophy`);
+}else
+   if (dolphinscore < koalasscore){
+  console.log(`koalas team win the trophy`);
+}else if(dolphinscore === koalasscore){
+  console.log(`The match is draw ~both team win the trophy`);
 }
 
 
