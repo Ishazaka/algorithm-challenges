@@ -68,3 +68,10 @@ const koalassscore = (79 + 95 + 88)/3;
 if (dolphinsscore > koalassscore && dolphinsscore >=100 ){
    console.log(`dolphin team win the trophy`);
 }else if (dolphinsscore < koalassscore &&koalassscore >=100 ){
+
+  console.log(`koalas team win the trophy`);
+}else if (koalassscore === dolphinsscore && koalassscore >= 100 && dolphinsscore >=100 ){
+  console.log(`both win the game !!`)
+}else {
+  console.log(`no one is the winner both have less than 100 score`);
+}
