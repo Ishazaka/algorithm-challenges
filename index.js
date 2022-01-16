@@ -39,4 +39,17 @@ console.log(`MarkBMI (${bmimarks}) is higher than JohnBMI which is (${bmijohns})
 console.log(`MarkBMI (${bmimarks}) is less than JohnBMI which is (${bmijohns})`);
 }
 
+// code3
+
+// dolphin score is 96, 108 and 89
+// koalas score is 88, 91 and 110
+
+const dolphinscore = (96 + 108 + 89)/3;
+const koalasscore = (88 + 91 + 110)/3;
+console.log( dolphinscore,koalasscore);
+
+if (dolphinscore > koalasscore){
+  console.log(`dolphin team win the trophy`);
+}
+
 
