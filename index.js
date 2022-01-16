@@ -57,4 +57,14 @@ if (dolphinscore > koalasscore){
   console.log(`The match is draw ~both team win the trophy`);
 }
 
+// code 3 (bonus 1)(bonus2)
 
+// dolphin score 97 85 78
+// koalas score 79 95 88
+
+const dolphinsscore = (97 + 85 + 78)/3;
+const koalassscore = (79 + 95 + 88)/3;
+ console.log(dolphinsscore, koalassscore)
+if (dolphinsscore > koalassscore && dolphinsscore >=100 ){
+   console.log(`dolphin team win the trophy`);
+}else if (dolphinsscore < koalassscore &&koalassscore >=100 ){
