@@ -114,3 +114,7 @@ console.log(`the bills is ${bills} and tip is ${tipvalue} and total is ${bills +
 
 // code 1(a)
  let calcaverage = (a, b, c) => (a + b + c)/3
+
+ let scoredolphin = calcaverage(44, 23, 71);
+ let scorekoalas = calcaverage(65, 54, 49);
+ console.log( scoredolphin,scorekoalas)
