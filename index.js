@@ -124,3 +124,8 @@ console.log(`the bills is ${bills} and tip is ${tipvalue} and total is ${bills +
    console.log(`dolphins wins the cup! (${scoredolphin} vs ${avgkoalas}) `);
    }else if (avgkoalas >= avgdolphin*2){
   console.log(`koalas wins the cup! (${avgkoalas} vs ${avgdolphin})`)
+ }else {
+   console.log("no one  will take the cup")
+ }
+  }
+checkwinner(scoredolphin ,scorekoalas);
