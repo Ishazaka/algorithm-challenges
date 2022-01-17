@@ -85,3 +85,7 @@ if (day === "monday"){
   console.log(`do some exercise `);
 } else if (day === "tuesday"){
   console.log(`are you  exercise `);
+ }else if (day === "wednesday" || day === "thursday"){
+  console.log(`i am learning `);
+} else if (day === "friday"){
+  console.log(`that is half day `);
