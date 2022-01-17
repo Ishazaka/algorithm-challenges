@@ -94,3 +94,11 @@ if (day === "monday"){
 }else{
    console.log(`you are typing wrong `);
 }
+
+
+// code 4
+// calculate the bill and tip  
+//  bill values 275 , 40 and 430
+
+const bill =  275;
+const tips = bill <= 300 && bill >=50 ? bill*0.15 : bill* 0.2; 
