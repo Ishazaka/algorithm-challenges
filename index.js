@@ -103,3 +103,7 @@ if (day === "monday"){
 const bill =  275;
 const tips = bill <= 300 && bill >=50 ? bill*0.15 : bill* 0.2; 
 console.log(` the bill is ${bill} and tip is ${tips} and total is ${bill + tips}`);
+
+const bills = 40;
+const tipvalue = bills <= 300 && bills >= 50 ? bills*0.15 :bills*0.2; 
+console.log(`the bills is ${bills} and tip is ${tipvalue} and total is ${bills + tipvalue}`);
