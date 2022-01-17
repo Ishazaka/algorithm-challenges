@@ -79,3 +79,9 @@ if (dolphinsscore > koalassscore && dolphinsscore >=100 ){
 // // code after 3
 // // do the switch type statement in if else statement 
   let day = "wednesday";
+
+
+if (day === "monday"){
+  console.log(`do some exercise `);
+} else if (day === "tuesday"){
+  console.log(`are you  exercise `);
