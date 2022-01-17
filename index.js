@@ -107,3 +107,10 @@ console.log(` the bill is ${bill} and tip is ${tips} and total is ${bill + tips}
 const bills = 40;
 const tipvalue = bills <= 300 && bills >= 50 ? bills*0.15 :bills*0.2; 
 console.log(`the bills is ${bills} and tip is ${tipvalue} and total is ${bills + tipvalue}`);
+
+
+
+// udemy codes challenges (part 2 fundamental)
+
+// code 1(a)
+ let calcaverage = (a, b, c) => (a + b + c)/3
