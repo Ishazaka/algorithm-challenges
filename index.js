@@ -89,3 +89,8 @@ if (day === "monday"){
   console.log(`i am learning `);
 } else if (day === "friday"){
   console.log(`that is half day `);
+} else if (day === "sunday"){
+  console.log(`that is fun day `);
+}else{
+   console.log(`you are typing wrong `);
+}
