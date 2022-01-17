@@ -118,3 +118,7 @@ console.log(`the bills is ${bills} and tip is ${tipvalue} and total is ${bills +
  let scoredolphin = calcaverage(44, 23, 71);
  let scorekoalas = calcaverage(65, 54, 49);
  console.log( scoredolphin,scorekoalas)
+
+ function checkwinner(avgdolphin, avgkoalas){
+ if(avgdolphin >= avgkoalas*2){
+   console.log(`dolphins wins the cup! (${scoredolphin} vs ${avgkoalas}) `);
