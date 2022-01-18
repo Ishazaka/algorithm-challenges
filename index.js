@@ -129,3 +129,12 @@ console.log(`the bills is ${bills} and tip is ${tipvalue} and total is ${bills +
  }
   }
 checkwinner(scoredolphin ,scorekoalas);
+
+// code 1(b)
+
+let calcsaverage = (a, b,c) => (a+b+c)/3
+
+let scoresdolphin = calcsaverage(85, 54 ,41);
+let scoreskoalas = calcsaverage(23, 34 ,24);
+console.log(scoresdolphin, scoreskoalas);
+
