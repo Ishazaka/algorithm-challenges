@@ -174,3 +174,7 @@ let mark = {
   height : 1.69,
   mass : 78,
   calcbmi : function (){
+   this.bmi = this.mass/ this.height** 2;
+    return this.bmi;
+  }
+};
