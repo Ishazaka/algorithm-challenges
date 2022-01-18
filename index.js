@@ -144,3 +144,8 @@ if(avgsdolphin >= avgskoalas *2){
 }else if (avgskoalas >= avgsdolphin*2){
   console.log(`koalas exactly win!  (${avgkoalas} vs ${avgdolphin})`);
 }else {
+ console.log ("no one will get any award");
+}
+
+}
+checkthewinner(scoresdolphin, scoreskoalas)
