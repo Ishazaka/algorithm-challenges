@@ -138,3 +138,6 @@ let scoresdolphin = calcsaverage(85, 54 ,41);
 let scoreskoalas = calcsaverage(23, 34 ,24);
 console.log(scoresdolphin, scoreskoalas);
 
+function checkthewinner(avgsdolphin, avgskoalas){
+if(avgsdolphin >= avgskoalas *2){
+  console.log(`dolphin exactly take trophy! (${avgsdolphin} vs ${avgskoalas}) `);
