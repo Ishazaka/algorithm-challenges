@@ -149,3 +149,10 @@ if(avgsdolphin >= avgskoalas *2){
 
 }
 checkthewinner(scoresdolphin, scoreskoalas)
+
+
+// code 2
+
+// const calctip = function(bill){
+//  return  bill <= 300 && bill >=50 ? bill * 0.15 :bill* 0.20;
+// }
