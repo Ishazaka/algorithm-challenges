@@ -166,3 +166,8 @@ console.log(bill, tips);
  const total = [bill[0] + tips[0],bill[1] + tips[1],bill[2] + tips[2] ];
 
  console.log(total);
+
+// code 3
+
+let mark = {
+  fullname : "mark miller",
