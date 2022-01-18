@@ -171,3 +171,6 @@ console.log(bill, tips);
 
 let mark = {
   fullname : "mark miller",
+  height : 1.69,
+  mass : 78,
+  calcbmi : function (){
