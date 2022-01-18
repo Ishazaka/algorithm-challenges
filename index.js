@@ -141,3 +141,6 @@ console.log(scoresdolphin, scoreskoalas);
 function checkthewinner(avgsdolphin, avgskoalas){
 if(avgsdolphin >= avgskoalas *2){
   console.log(`dolphin exactly take trophy! (${avgsdolphin} vs ${avgskoalas}) `);
+}else if (avgskoalas >= avgsdolphin*2){
+  console.log(`koalas exactly win!  (${avgkoalas} vs ${avgdolphin})`);
+}else {
