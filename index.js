@@ -178,3 +178,15 @@ let mark = {
     return this.bmi;
   }
 };
+
+let john = {
+  fullname : "John smith",
+  height : 1.95,
+  mass : 92,
+  calcbmi : function (){
+    this.bmi = this.mass/ this.height ** 2;
+    return this.bmi;
+  }
+};
+
+
