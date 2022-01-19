@@ -190,4 +190,5 @@ let john = {
 };
  mark.calcbmi();
  john.calcbmi();
-
+ console.log(mark.bmi);
+ console.log(john.bmi);
