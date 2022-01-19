@@ -188,5 +188,6 @@ let john = {
     return this.bmi;
   }
 };
-
+ mark.calcbmi();
+ john.calcbmi();
 
