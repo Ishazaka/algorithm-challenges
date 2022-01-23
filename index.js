@@ -202,7 +202,7 @@ if(mark.bmi > john.bmi){
 
 // hacker ranks code
 
-
+// code 3 (sum the array)
 
 var arr = [1,2,3,4,10,11];
 
