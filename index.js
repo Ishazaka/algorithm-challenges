@@ -211,3 +211,7 @@ function simpleArraySum(ar) {
    let thesum = 0
     for (let n = 0; n < ar.length; n++){
     thesum +=ar[n];
+}
+return thesum;
+}
+console.log(simpleArraySum(arr));
