@@ -226,3 +226,9 @@ function sumarray(...ar){
 
  let sum = 0;
  for(let i in ar){
+ sum += ar[i];
+ }
+return sum;
+
+}
+console.log(sumarray(...arr));
