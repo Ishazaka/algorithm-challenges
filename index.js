@@ -220,3 +220,9 @@ console.log(simpleArraySum(arr));
 // answer is correct but not a right way because spread converts array into open method and rest again convert it into array
 
 
+var arr = [1,2,3,4,10,11];
+
+function sumarray(...ar){
+
+ let sum = 0;
+ for(let i in ar){
