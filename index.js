@@ -215,3 +215,8 @@ function simpleArraySum(ar) {
 return thesum;
 }
 console.log(simpleArraySum(arr));
+
+// code 3 second method
+// answer is correct but not a right way because spread converts array into open method and rest again convert it into array
+
+
