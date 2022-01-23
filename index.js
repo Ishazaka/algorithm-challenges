@@ -202,3 +202,12 @@ if(mark.bmi > john.bmi){
 
 // hacker ranks code
 
+
+
+var arr = [1,2,3,4,10,11];
+
+function simpleArraySum(ar) {
+    // Write your code here
+   let thesum = 0
+    for (let n = 0; n < ar.length; n++){
+    thesum +=ar[n];
