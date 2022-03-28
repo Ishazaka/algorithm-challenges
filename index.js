@@ -1,5 +1,6 @@
 // find the even number on the n value
-
+function nthEven(n) {
+    return  (n*2)-2
 
 
 
