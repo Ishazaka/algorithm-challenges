@@ -3,6 +3,10 @@ function nthEven(n) {
     return  (n*2)-2
 }
 
+console.log(nthEven(100));
+console.log(nthEven(10));
+
+
 
 
 // udemy coarse code challenges
