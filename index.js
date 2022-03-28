@@ -5,6 +5,9 @@ function nthEven(n) {
 
 console.log(nthEven(100));
 console.log(nthEven(10));
+console.log(nthEven(2));
+console.log(nthEven(5));
+
 
 
 
